@@ -1,0 +1,249 @@
+﻿body
+{
+	font-family: Arial;
+	font-size: 10pt;
+}
+.link-checker-container
+{
+	width: 331px; /*height: 558px;*/
+	padding-bottom: 20px;
+	background-color: #d6e2e0;
+	border: solid 1px gray;
+	margin: auto;
+}
+.link-checker-contents
+{
+	width: 280px;
+	height: 392px;
+	margin: auto;
+	margin-top: 25px;
+	overflow: hidden;
+}
+.link-checker-header
+{
+	width: 270px;
+	height: 22px;
+	border: solid 1px #99bbd4;
+	border-bottom: solid 1px #7396b3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cde2f1), to(#a9cae5));
+	background-image: -moz-linear-gradient(#cde2f1, #a9cae5);
+	background-image: -webkit-linear-gradient(#cde2f1, #a9cae5);
+	background-image: -o-linear-gradient(#cde2f1, #a9cae5);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#cde2f1, endColorstr=#a9cae5);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#cde2f1, endColorstr=#a9cae5)";
+	color: #738694;
+	font-size: 10pt;
+	padding-top: 8px;
+	padding-left: 8px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+}
+.link-checker-header img
+{
+	border: none; /*width: 16px; 	height: 16px;*/
+	float: right;
+	padding-right: 8px;
+	cursor: pointer;
+}
+.link-checker-content
+{
+	width: 278px;
+	height: 358px;
+	border: solid 1px #abb1b0;
+	border-top: none;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	overflow: hidden;
+}
+.link-checker-input-wrapper
+{
+	width: 270px;
+	height: 37px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#f8f8f8));
+	background-image: -moz-linear-gradient(#ececec, #f8f8f8);
+	background-image: -webkit-linear-gradient(#ececec, #f8f8f8);
+	background-image: -o-linear-gradient(#ececec, #f8f8f8);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ececec, endColorstr=#f8f8f8);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ececec, endColorstr=#f8f8f8)";
+	border-bottom: solid 1px #e4e4e4;
+	padding-top: 9px;
+	padding-left: 10px;
+}
+.link-checker-input-div
+{
+	width: 257px;
+	height: 28px;
+	border: solid 1px #aeaeae;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+.link-checker-links-container
+{
+	height: 310px;
+	width: 280px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#e8e8e8));
+	background-image: -moz-linear-gradient(#eeeeee, #e8e8e8);
+	background-image: -webkit-linear-gradient(#eeeeee, #e8e8e8);
+	background-image: -o-linear-gradient(#eeeeee, #e8e8e8);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#eeeeee, endColorstr=#e8e8e8);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#eeeeee, endColorstr=#e8e8e8)";
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+}
+.input
+{
+	width: 221px;
+	height: 28px;
+	float: left;
+}
+.input input
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	color: #4f4f4f;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: Transparent;
+}
+.add-button-wrapper
+{
+	width: 36px;
+	height: 28px;
+	float: left;
+}
+.button
+{
+	width: 23px;
+	height: 19px;
+	border: solid 1px #898989;
+	color: white;
+	font-size: 14pt;
+	font-weight: bold;
+	background: -webkit-gradient(linear, left top, left bottom, from(#8c8c8c), to(#555555));
+	background-image: -moz-linear-gradient(#8c8c8c, #555555);
+	background-image: -webkit-linear-gradient(#8c8c8c, #555555);
+	background-image: -o-linear-gradient(#8c8c8c, #555555);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#8c8c8c, endColorstr=#555555);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#8c8c8c, endColorstr=#555555)";
+	text-align: center;
+	margin-left: 6px;
+	margin-top: 4px;
+	cursor: pointer;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+.link-checker-button
+{
+	width: 127px;
+	height: 29px;
+	border: solid 1px #a7cae3;
+	margin: auto;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cde2f2), to(#92b8d5));
+	background-image: -moz-linear-gradient(#cde2f2, #92b8d5);
+	background-image: -webkit-linear-gradient(#cde2f2, #92b8d5);
+	background-image: -o-linear-gradient(#cde2f2, #92b8d5);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#cde2f2, endColorstr=#92b8d5);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#cde2f2, endColorstr=#92b8d5)";
+	margin-top: 20px;
+	color: #25748c;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 12px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	cursor: pointer;
+	text-shadow: 2px 2px 2px #92b8d5;
+}
+.link-checker-page-detail-head
+{
+	height: 28px;
+	width: 272px;
+	padding-left: 8px;
+	padding-top: 4px;
+	color: #4f4f4f;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.links-wrapper
+{
+	width: 280px;
+	height: 240px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+.link-item
+{
+	height: 26px;
+	width: 272px;
+	padding-left: 8px;
+	padding-top: 12px;
+	border-bottom: solid 1px #e1e9ee;
+}
+.link-item a
+{
+	color: #4f4f4f;
+	text-decoration: none; 
+}
+.link-item a:hover
+{
+	text-decoration: underline;
+}
+.link-checker-re-check
+{
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 60px;
+	padding-right: 8px;
+	padding-top: 8px;
+}
+.link-checker-re-check a
+{
+	color: #d73e36;
+	text-decoration: none;
+}
+.link-checker-re-check a:hover
+{
+	text-decoration: underline;
+}
+.links-total
+{
+	margin: 0;
+	padding: 0;
+	padding-top: 8px;
+	padding-left: 8px;
+	width: 100px;
+	float: left;
+	color: #4f4f4f;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.link-container
+{
+	width: 228px;
+	float: left;
+}
+.link-status-container
+{
+	width: 44px;
+	float: left;
+}
+.link-status-container img
+{
+	border: none;
+}
+#hidden-file-input
+{
+	display: none;
+}

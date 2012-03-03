@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>jQuery Broken Link Checker Plugin</title>
+
+    <script src="jquery-1.4.4.min.js" type="text/javascript"></script>
+
+    <script src="link-checker.js" type="text/javascript"></script>
+
+    <link href="link-checker.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#link-checker').linkchecker();
+        });
+    </script>
+
+    <style type="text/css">
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+        #demo-wrapper
+        {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        #header
+        {
+            border: solid 1px #99bbd4;
+            border-bottom: solid 1px #7396b3;
+            background: -webkit-gradient(linear, left top, left bottom, from(#cde2f1), to(#a9cae5));
+            background-image: -moz-linear-gradient(#cde2f1, #a9cae5);
+            background-image: -webkit-linear-gradient(#cde2f1, #a9cae5);
+            background-image: -o-linear-gradient(#cde2f1, #a9cae5);
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#cde2f1, endColorstr=#a9cae5);
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#cde2f1, endColorstr=#a9cae5)";
+            color: #738694;
+            width: 100%;
+            height: 100px;
+            margin: auto;
+            font-size: 18pt;
+            font-weight: bold;
+            text-align: left;
+            padding-top: 50px;
+            padding-left: 20px;
+            text-shadow: 5px 5px 5px #92b8d5;
+        }
+        #footer
+        {
+            border: solid 1px #99bbd4;
+            border-bottom: solid 1px #7396b3;
+            background: -webkit-gradient(linear, left top, left bottom, from(#cde2f1), to(#a9cae5));
+            background-image: -moz-linear-gradient(#cde2f1, #a9cae5);
+            background-image: -webkit-linear-gradient(#cde2f1, #a9cae5);
+            background-image: -o-linear-gradient(#cde2f1, #a9cae5);
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#cde2f1, endColorstr=#a9cae5);
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#cde2f1, endColorstr=#a9cae5)";
+            color: #738694;
+            width: 100%;
+            height: 80px;
+        }
+        #left
+        {
+            width: 65%;
+            float: left;
+            padding: 20px;
+        }
+        #right
+        {
+            width: 30%;
+            float: left;
+        }
+        #right #link-checker
+        {
+            float: right;
+            height: 600px;
+            background-color: Transparent;
+            border: none;
+        }
+        .clear-fix
+        {
+            clear: both;
+        }
+        #footer div
+        {
+            width: 400px;
+            margin: auto;
+            padding-top: 20px;
+        }
+        #footer div ul
+        {
+            list-style: none;
+        }
+        #footer div ul li
+        {
+            float: left;
+            display: inline;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo-wrapper">
+        <div id="header">
+            jQuery Broken Link Checker Plugin
+        </div>
+        <div id="contents">
+            <div id="left">
+                <p>
+                    <a href="http://www.egrappler.com/jquery-social-media-share-plugin-jsshare/">jQuery
+                        Social Media Share Plugin</a></p>
+                <p>
+                    <a href="http://www.egrappler.com/black-and-white-psd-vector-icons/">54 hight quality
+                        vector icons</a></p>
+                <p>
+                    <a href="http://www.egrappler.com/jquery-contentthumbnail-slder-v2-0-jscarousel-v2-0/">
+                        jQuery thumbnail slider</a>
+                </p>
+                <p>
+                    <a href="http://www.egrappler.com/rss-driven-dynamic-jquery-news-slider-plugin-dynamic-news/">
+                        jQuery Dynamic News slider plugin</a></p>
+                <p>
+                    <a href="http://www.egrappler.com/jquery-image-preload-plugin-smart-preloader/">jQuery
+                        image pre load plugin</a></p>
+                <p>
+                    <a href="http://www.egrappler.com/jquery-pagination-plugin-smart-paginator/">jQuery
+                        Pagination Plugin</a></p>
+                <p>
+                    <a href="http://www.egrappler.com/jquery-spin-button-plugin-smart-spin/">jQuery spin
+                        button control plugin</a></p>
+                <p>
+                    <a href="http://www.yahoo.com">Yahoo</a></p>
+                <p>
+                    <a href="http://www.msn.com">Msn</a></p>
+                <p>
+                    <a href="http://www.asdfsdfgoogle.com">Wrong one</a></p>
+                <p>
+                    <a href="http://www.delicious.com/">Delicious</a></p>
+                <p>
+                    <a href="http://www.digg.com">Digg</a>
+                </p>
+            </div>
+            <div id="right">
+                <div id="link-checker">
+                </div>
+            </div>
+            <div class="clear-fix">
+            </div>
+        </div>
+        <div id="footer">
+            <div>
+                <ul>
+                    <li><a href="http://www.egrappler.com">Home</a></li>
+                    <li><a href="http://www.egrappler.com/about">About</a></li>
+                    <li><a href="http://feeds.feedburner.com/EGrappler">Subscribe to RSS</a></li>
+                    <li><a href="http://www.egrappler.com/jquery-broken-link-checker-plugin-jslink/">Back to Post</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
